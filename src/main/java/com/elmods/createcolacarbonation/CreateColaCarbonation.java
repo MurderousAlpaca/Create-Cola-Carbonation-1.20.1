@@ -1,5 +1,6 @@
 package com.elmods.createcolacarbonation;
 
+import com.elmods.createcolacarbonation.item.ModCreativeModTabs;
 import com.elmods.createcolacarbonation.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,6 +28,8 @@ public class CreateColaCarbonation {
     public CreateColaCarbonation(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -43,6 +46,7 @@ public class CreateColaCarbonation {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.RAW_SAPPHIRE);
         }
     }
 
