@@ -1,9 +1,8 @@
-package com.elmods.createcolacarbonation;
+package com.elmods.createcola;
 
-import com.elmods.createcolacarbonation.item.ModCreativeModTabs;
-import com.elmods.createcolacarbonation.item.ModItems;
+import com.elmods.createcola.item.ModCreativeModTabs;
+import com.elmods.createcola.item.ModItems;
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -18,14 +17,14 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(CreateColaCarbonation.MOD_ID)
-public class CreateColaCarbonation {
+@Mod(CreateCola.MOD_ID)
+public class CreateCola {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "createcolacarbonation";
+    public static final String MOD_ID = "createcola";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public CreateColaCarbonation(FMLJavaModLoadingContext context) {
+    public CreateCola(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);

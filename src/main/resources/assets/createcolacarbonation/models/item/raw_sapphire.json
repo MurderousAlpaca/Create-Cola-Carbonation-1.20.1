@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "createcolacarbonation:item/raw_sapphire"
-  }
-}
