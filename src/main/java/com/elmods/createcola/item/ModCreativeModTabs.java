@@ -1,6 +1,7 @@
 package com.elmods.createcola.item;
 
 import com.elmods.createcola.CreateCola;
+import com.elmods.createcola.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,7 +21,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.SAPPHIRE.get());
                         output.accept(ModItems.RAW_SAPPHIRE.get());
 
-                        output.accept(ModItems.RAW_SAPPHIRE.get());
+                        output.accept(ModBlocks.COLA_CRATE.get());
                     })
                     .build());
 

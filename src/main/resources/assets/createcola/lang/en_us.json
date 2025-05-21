@@ -1,5 +1,8 @@
 {
   "item.createcola.sapphire": "Sapphire",
   "item.createcola.raw_sapphire": "Raw Sapphire",
-  "creativetab.tutorial_tab": "Sapphire Stuff"
+
+  "block.createcola.cola_crate": "Cola Crate",
+
+  "creativetab.tutorial_tab": "Create: Cola & Carbonation"
 }
