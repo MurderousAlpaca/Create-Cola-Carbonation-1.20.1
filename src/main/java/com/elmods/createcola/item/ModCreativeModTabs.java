@@ -15,11 +15,13 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateCola.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.COLA.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.SAPPHIRE.get());
-                        output.accept(ModItems.RAW_SAPPHIRE.get());
+                        output.accept(ModItems.COLA.get());
+                        output.accept(ModItems.COLA_CAN.get());
+                        output.accept(ModItems.CHERRY_COLA.get());
+                        output.accept(ModItems.CHERRY_CAN.get());
 
                         output.accept(ModBlocks.COLA_CRATE.get());
                     })

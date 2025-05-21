@@ -1,8 +1,10 @@
 {
-  "item.createcola.sapphire": "Sapphire",
-  "item.createcola.raw_sapphire": "Raw Sapphire",
+  "item.createcola.cola": "bottle of cola",
+  "item.createcola.cola_can": "can of cola",
+  "item.createcola.cherry_cola": "bottle of cherry cola",
+  "item.createcola.cherry_can": "can of cherry cola",
 
-  "block.createcola.cola_crate": "Cola Crate",
+  "block.createcola.cola_crate": "cola crate",
 
   "creativetab.tutorial_tab": "Create: Cola & Carbonation"
 }
