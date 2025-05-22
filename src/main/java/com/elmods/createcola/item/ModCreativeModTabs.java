@@ -22,8 +22,21 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.COLA_CAN.get());
                         output.accept(ModItems.CHERRY_COLA.get());
                         output.accept(ModItems.CHERRY_CAN.get());
+                        output.accept(ModItems.VANILLA_COLA.get());
+                        output.accept(ModItems.VANILLA_CAN.get());
+                        output.accept(ModItems.CHERRY_VANILLA_COLA.get());
+                        output.accept(ModItems.CHERRY_VANILLA_CAN.get());
+                        output.accept(ModItems.EMPTY_CAN.get());
+                        output.accept(ModItems.CARBONATE_POWDER.get());
 
                         output.accept(ModBlocks.COLA_CRATE.get());
+                        output.accept(ModBlocks.CHERRY_CRATE.get());
+                        output.accept(ModBlocks.VANILLA_CRATE.get());
+                        output.accept(ModBlocks.CHERRY_VANILLA_CRATE.get());
+                        output.accept(ModBlocks.COLA_BOX.get());
+                        output.accept(ModBlocks.CHERRY_BOX.get());
+                        output.accept(ModBlocks.VANILLA_BOX.get());
+                        output.accept(ModBlocks.CHERRY_VANILLA_BOX.get());
                     })
                     .build());
 

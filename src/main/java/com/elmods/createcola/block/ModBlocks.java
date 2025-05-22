@@ -20,6 +20,20 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> COLA_CRATE = registerBlock("cola_crate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> COLA_BOX = registerBlock("cola_box",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> CHERRY_CRATE = registerBlock("cherry_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> CHERRY_BOX = registerBlock("cherry_box",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> VANILLA_CRATE = registerBlock("vanilla_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> VANILLA_BOX = registerBlock("vanilla_box",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> CHERRY_VANILLA_CRATE = registerBlock("cherry_vanilla_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> CHERRY_VANILLA_BOX = registerBlock("cherry_vanilla_box",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

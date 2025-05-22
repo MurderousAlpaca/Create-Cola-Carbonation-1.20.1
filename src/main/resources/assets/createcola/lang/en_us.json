@@ -1,10 +1,24 @@
 {
-  "item.createcola.cola": "bottle of cola",
-  "item.createcola.cola_can": "can of cola",
-  "item.createcola.cherry_cola": "bottle of cherry cola",
-  "item.createcola.cherry_can": "can of cherry cola",
+  "item.createcola.cola": "Cola Bottle",
+  "item.createcola.cola_can": "Cola Can",
+  "item.createcola.cherry_cola": "Cherry Cola Bottle",
+  "item.createcola.cherry_can": "Cherry Cola Can",
+  "item.createcola.vanilla_cola": "Vanilla Cola Bottle",
+  "item.createcola.vanilla_can": "Vanilla Cola Can",
+  "item.createcola.cherry_vanilla_cola": "Cherry Vanilla Cola Bottle",
+  "item.createcola.cherry_vanilla_can": "Cherry Vanilla Cola Can",
+  "item.createcola.empty_can": "Empty Can",
+  "item.createcola.phosphate_powder": "Phosphate Powder",
 
-  "block.createcola.cola_crate": "cola crate",
+  "block.createcola.cola_crate": "Cola Crate",
+  "block.createcola.cola_box": "Cola Box",
+  "block.createcola.cherry_crate": "Cherry Cola Crate",
+  "block.createcola.cherry_box": "Cherry Cola Box",
+  "block.createcola.vanilla_crate": "Vanilla Cola Crate",
+  "block.createcola.vanilla_box": "Vanilla Cola Box",
+  "block.createcola.cherry_vanilla_crate": "Cherry Vanilla Cola Crate",
+  "block.createcola.cherry_vanilla_box": "Cherry Vanilla Cola Box",
+
 
   "creativetab.tutorial_tab": "Create: Cola & Carbonation"
 }
