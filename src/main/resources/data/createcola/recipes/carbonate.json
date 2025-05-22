@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "create:limestone"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "count": 2,
+      "item": "createcola:carbonate_powder"
+    },
+    {
+      "chance": 0.5,
+      "item": "createcola:carbonate_powder"
+    }
+  ]
+}
