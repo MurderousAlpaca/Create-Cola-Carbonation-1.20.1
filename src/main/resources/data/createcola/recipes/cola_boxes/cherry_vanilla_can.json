@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createcola:cherry_vanilla_box"
+    }
+  ],
+  "result": {
+    "item": "createcola:cherry_vanilla_can",
+    "count": 9
+  }
+}

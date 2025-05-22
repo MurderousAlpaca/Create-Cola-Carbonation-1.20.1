@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createcola:cherry_crate"
+    }
+  ],
+  "result": {
+    "item": "createcola:cherry_cola",
+    "count": 9
+  }
+}

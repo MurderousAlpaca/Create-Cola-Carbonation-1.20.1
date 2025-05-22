@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcola:cherry_vanilla_can"
+    }
+  },
+  "result": {
+    "item": "createcola:cherry_vanilla_box"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcola:vanilla_cola"
+    }
+  },
+  "result": {
+    "item": "createcola:vanilla_crate"
+  }
+}
