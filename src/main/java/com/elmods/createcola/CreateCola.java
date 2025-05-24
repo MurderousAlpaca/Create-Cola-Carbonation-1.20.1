@@ -26,6 +26,8 @@ public class CreateCola {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
+    public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(CreateCola.MOD_ID);
+
     public CreateCola(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
@@ -33,6 +35,8 @@ public class CreateCola {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        REGISTRATE.registerEventListeners(modEventBus);
+        //Fluids.init();
 
         modEventBus.addListener(this::commonSetup);
 

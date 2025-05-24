@@ -6,8 +6,9 @@ import com.tterrag.registrate.util.entry.FluidEntry;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
 
+import static com.elmods.createcola.CreateCola.REGISTRATE;
+
 public class Fluids {
-    private static final CreateRegistrate REGISTRATE = CreateRegistrate.create(CreateCola.MOD_ID);
 
     static {
         REGISTRATE.setCreativeTab(ModCreativeModTabs.TUTORIAL_TAB);
