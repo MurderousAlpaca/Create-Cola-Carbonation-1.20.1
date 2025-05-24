@@ -1,7 +1,5 @@
 package com.elmods.createcola.item;
 
-import com.elmods.createcola.CreateCola;
-import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.entry.FluidEntry;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
@@ -9,11 +7,9 @@ import net.minecraftforge.fluids.ForgeFlowingFluid;
 import static com.elmods.createcola.CreateCola.REGISTRATE;
 
 public class Fluids {
-
     static {
         REGISTRATE.setCreativeTab(ModCreativeModTabs.TUTORIAL_TAB);
     }
-
     public static final FluidEntry<ForgeFlowingFluid.Flowing> ACID =
             REGISTRATE.standardFluid("cola")
                     .lang("Cola")

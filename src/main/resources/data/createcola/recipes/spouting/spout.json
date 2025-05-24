@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createcola:empty_can"
+    },
+    {
+      "amount": 250,
+      "fluid": "createcola:cola"
+    }
+  ],
+  "results": [
+    {
+      "item": "createcola:cola_can"
+    }
+  ]
+}
