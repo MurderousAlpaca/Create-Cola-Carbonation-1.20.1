@@ -4,6 +4,7 @@ import com.elmods.createcola.block.ModBlocks;
 import com.elmods.createcola.item.ModCreativeModTabs;
 import com.elmods.createcola.item.ModItems;
 import com.mojang.logging.LogUtils;
+import com.simibubi.create.foundation.data.CreateRegistrate;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +25,8 @@ public class CreateCola {
     public static final String MOD_ID = "createcola";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+
+    public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(CreateCola.MOD_ID);
 
     public CreateCola(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
