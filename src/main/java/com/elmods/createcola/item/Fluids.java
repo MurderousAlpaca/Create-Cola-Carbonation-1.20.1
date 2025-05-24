@@ -30,4 +30,5 @@ public class Fluids {
                     .bucket()
                     .build()
                     .register();
+    public static void init() {}
 }

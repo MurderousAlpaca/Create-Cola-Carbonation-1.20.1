@@ -1,6 +1,7 @@
 package com.elmods.createcola;
 
 import com.elmods.createcola.block.ModBlocks;
+import com.elmods.createcola.item.Fluids;
 import com.elmods.createcola.item.ModCreativeModTabs;
 import com.elmods.createcola.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -36,7 +37,7 @@ public class CreateCola {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         REGISTRATE.registerEventListeners(modEventBus);
-        //Fluids.init();
+        Fluids.init();
 
         modEventBus.addListener(this::commonSetup);
 
