@@ -5,11 +5,26 @@
   "item.createcola.cherry_can": "Cherry Cola Can",
   "item.createcola.vanilla_cola": "Vanilla Cola Bottle",
   "item.createcola.vanilla_can": "Vanilla Cola Can",
-  "item.createcola.cherry_vanilla_cola": "Cherry Vanilla Cola Bottle",
-  "item.createcola.cherry_vanilla_can": "Cherry Vanilla Cola Can",
-  "item.createcola.empty_can": "Empty Can",
-  "item.createcola.carbonate_powder": "Carbonate Powder",
+  "item.createcola.cherry_vanilla_cola": "Cherry-Vanilla Cola Bottle",
+  "item.createcola.cherry_vanilla_can": "Cherry-Vanilla Cola Can",
+
   "item.createcola.cola_bucket": "Cola Bucket",
+  "item.createcola.cherry_cola_bucket": "Cherry Cola Bucket",
+  "item.createcola.vanilla_cola_bucket": "Vanilla Cola Bucket",
+  "item.createcola.cherry_vanilla_cola_bucket": "Cherry-Vanilla Cola Bucket",
+
+  "item.createcola.cola_syrup_bucket": "Cola Syrup Bucket",
+  "item.createcola.cherry_syrup_bucket": "Cherry Cola Syrup Bucket",
+  "item.createcola.vanilla_syrup_bucket": "Vanilla Cola Syrup Bucket",
+  "item.createcola.cherry_vanilla_syrup_bucket": "Cherry-Vanilla Cola Syrup Bucket",
+
+  "item.createcola.empty_can": "Empty Can",
+  "item.createcola.carbonated_water": "Carbonated Water",
+  "item.createcola.carbonated_water_can": "Carbonated Water Can",
+  "item.createcola.carbonate_powder": "Carbonate Powder",
+  "item.createcola.acid_bucket": "Acid Bucket",
+  "item.createcola.carbonated_water_bucket": "Carbonated Water Bucket",
+
 
   "block.createcola.cola_crate": "Cola Crate",
   "block.createcola.cola_box": "Cola Box",

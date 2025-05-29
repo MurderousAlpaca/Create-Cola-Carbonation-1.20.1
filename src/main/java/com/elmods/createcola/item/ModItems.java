@@ -27,6 +27,10 @@ public class ModItems {
                 () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHERRY_VANILLA_CAN = ITEMS.register("cherry_vanilla_can",
                 () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CARBONATED_WATER = ITEMS.register("carbonated_water",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CARBONATED_WATER_CAN = ITEMS.register("carbonated_water_can",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> EMPTY_CAN = ITEMS.register("empty_can",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CARBONATE_POWDER = ITEMS.register("carbonate_powder",

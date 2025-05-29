@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "createcola:cola",
+    "createcola:cola_can",
+    "createcola:cherry_cola",
+    "createcola:cherry_can",
+    "createcola:vanilla_cola",
+    "createcola:vanilla_can",
+    "createcola:cherry_vanilla_cola",
+    "createcola:cherry_vanilla_can",
+    "createcola:carbonated_water",
+    "createcola:carbonated_water_can",
+    "createcola:empty_can"
+  ]
+}

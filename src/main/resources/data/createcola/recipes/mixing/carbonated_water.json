@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createcola:carbonate_powder"
+    },
+    {
+      "item": "createcola:carbonate_powder"
+    },
+    {
+      "amount": 250,
+      "fluid": "createcola:acid"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "createcola:carbonated_water"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "createcola:acid"
+    }
+  ]
+}

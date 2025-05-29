@@ -26,6 +26,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.VANILLA_CAN.get());
                         output.accept(ModItems.CHERRY_VANILLA_COLA.get());
                         output.accept(ModItems.CHERRY_VANILLA_CAN.get());
+                        output.accept(ModItems.CARBONATED_WATER.get());
+                        output.accept(ModItems.CARBONATED_WATER_CAN.get());
                         output.accept(ModItems.EMPTY_CAN.get());
                         output.accept(ModItems.CARBONATE_POWDER.get());
 

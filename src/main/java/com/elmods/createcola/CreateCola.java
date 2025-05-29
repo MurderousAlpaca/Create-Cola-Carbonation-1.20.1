@@ -1,12 +1,11 @@
 package com.elmods.createcola;
 
 import com.elmods.createcola.block.ModBlocks;
-import com.elmods.createcola.item.Fluids;
+import com.elmods.createcola.fluid.Fluids;
 import com.elmods.createcola.item.ModCreativeModTabs;
 import com.elmods.createcola.item.ModItems;
 import com.mojang.logging.LogUtils;
 import com.simibubi.create.foundation.data.CreateRegistrate;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;

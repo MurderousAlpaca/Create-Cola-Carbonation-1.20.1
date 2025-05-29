@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 750,
+      "fluid": "createcola:carbonated_water"
+    },
+    {
+      "amount": 250,
+      "fluid": "createcola:cherry_syrup"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "createcola:cherry_cola"
+    }
+  ]
+}
