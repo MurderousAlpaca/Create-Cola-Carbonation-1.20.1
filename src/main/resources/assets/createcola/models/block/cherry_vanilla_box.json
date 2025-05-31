@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "createcola:block/cherry_vanilla_box"
+    "end": "createcola:block/cola_box_end",
+    "side": "createcola:block/cherry_vanilla_box"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcola:carbonated_water_can"
+    }
+  },
+  "result": {
+    "item": "createcola:carbonated_water_box"
+  }
+}

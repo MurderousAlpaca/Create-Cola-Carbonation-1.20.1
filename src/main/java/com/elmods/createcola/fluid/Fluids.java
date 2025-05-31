@@ -2,6 +2,7 @@ package com.elmods.createcola.fluid;
 
 import com.elmods.createcola.item.ModCreativeModTabs;
 import com.tterrag.registrate.util.entry.FluidEntry;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
 

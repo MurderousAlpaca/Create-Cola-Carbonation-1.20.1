@@ -2,7 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "bottom": "createcola:block/cola_crate_bottom",
-    "top": "createcola:block/cola_crate_top",
-    "side": "createcola:block/cherry_vanilla_crate"
+    "top": "createcola:block/carbonated_water_crate_top",
+    "side": "createcola:block/carbonated_water_crate"
   }
 }

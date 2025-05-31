@@ -39,6 +39,8 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.CHERRY_BOX.get());
                         output.accept(ModBlocks.VANILLA_BOX.get());
                         output.accept(ModBlocks.CHERRY_VANILLA_BOX.get());
+                        output.accept(ModBlocks.CARBONATED_WATER_CRATE.get());
+                        output.accept(ModBlocks.CARBONATED_WATER_BOX.get());
                     })
                     .build());
 

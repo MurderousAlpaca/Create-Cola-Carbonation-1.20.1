@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_column",
   "textures": {
     "end": "createcola:block/cola_box_end",
-    "side": "createcola:block/cherry_box"
+    "side": "createcola:block/carbonated_water_box"
   }
 }
